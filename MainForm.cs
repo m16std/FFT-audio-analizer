@@ -190,7 +190,7 @@ namespace Plot3D
                 case 2: SetScatterPlot(true); break;            
             }
 
-            lblInfo.Text = "Points: " + graph3D.TotalPoints;
+            //lblInfo.Text = "Points: " + graph3D.TotalPoints;
         }
         private void comboColors_SelectedIndexChanged(object sender, EventArgs e)
         {
